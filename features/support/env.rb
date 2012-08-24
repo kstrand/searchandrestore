@@ -84,7 +84,7 @@ Capybara.register_driver :firefox_with_firebug do |app|
 end
 
 Before '@javascript' do
-  Capybara.current_driver = :firefox_with_firebug
+  #Capybara.current_driver = :firefox_with_firebug
 end
 
 Before do
